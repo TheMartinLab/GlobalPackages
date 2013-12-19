@@ -7,7 +7,6 @@
 	<classpathentry kind="src" path="ImageDisplay"/>
 	<classpathentry kind="src" path="Data Structures"/>
 	<classpathentry kind="src" path="JNI"/>
-	<classpathentry kind="src" path="Input/Output"/>
 	<classpathentry kind="src" path="JAMA"/>
 	<classpathentry kind="src" path="Fitting"/>
 	<classpathentry kind="src" path="misc"/>
