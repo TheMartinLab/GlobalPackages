@@ -10,7 +10,6 @@
 	<classpathentry kind="src" path="JAMA"/>
 	<classpathentry kind="src" path="Fitting"/>
 	<classpathentry kind="src" path="misc"/>
-	<classpathentry kind="src" path="utilities"/>
 	<classpathentry kind="src" path="Time Trackers"/>
 	<classpathentry kind="src" path="Plots"/>
 	<classpathentry kind="src" path="InterfaceComponents"/>
@@ -21,6 +20,7 @@
 	<classpathentry kind="src" path="Concurrency"/>
 	<classpathentry kind="src" path="JavaToC"/>
 	<classpathentry kind="src" path="demos"/>
+	<classpathentry kind="src" path="io"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
