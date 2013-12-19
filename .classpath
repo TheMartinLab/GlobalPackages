@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Crystallography"/>
+	<classpathentry kind="src" path="Geometry"/>
+	<classpathentry kind="src" path="Chemistry"/>
+	<classpathentry kind="src" path="FileFormats"/>
+	<classpathentry kind="src" path="ImageDisplay"/>
+	<classpathentry kind="src" path="Data Structures"/>
+	<classpathentry kind="src" path="JNI"/>
+	<classpathentry kind="src" path="Input/Output"/>
+	<classpathentry kind="src" path="JAMA"/>
+	<classpathentry kind="src" path="Fitting"/>
+	<classpathentry kind="src" path="misc"/>
+	<classpathentry kind="src" path="utilities"/>
+	<classpathentry kind="src" path="Time Trackers"/>
+	<classpathentry kind="src" path="Plots"/>
+	<classpathentry kind="src" path="InterfaceComponents"/>
+	<classpathentry kind="src" path="DataManipulation"/>
+	<classpathentry kind="src" path="Analysis"/>
+	<classpathentry kind="src" path="ImageManipulation"/>
+	<classpathentry kind="src" path="ForOthers"/>
+	<classpathentry kind="src" path="Concurrency"/>
+	<classpathentry kind="src" path="JavaToC"/>
+	<classpathentry kind="src" path="demos"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/$research/Research Archive/programming/not my libraries/javamail-1.4.5/mail.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
