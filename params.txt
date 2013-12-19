@@ -1,0 +1,15 @@
+alphaMin 0
+alphaMax 0.5
+fit_t0 true
+fit_k true
+fit_n false
+init_t0 0
+init_k .001
+init_n 3
+min_intensity_line 1 
+max_intensity_line 2
+q_line 3
+phi_line 4
+x0_line 5
+y0_line 6
+first_row 7
