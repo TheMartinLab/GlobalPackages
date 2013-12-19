@@ -23,6 +23,5 @@
 	<classpathentry kind="src" path="JavaToC"/>
 	<classpathentry kind="src" path="demos"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/$research/Research Archive/programming/not my libraries/javamail-1.4.5/mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
