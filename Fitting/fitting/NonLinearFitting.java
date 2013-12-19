@@ -84,7 +84,7 @@ public class NonLinearFitting extends RegressionXY {
 		boolean[] originalIsFittable = Arrays.copyOf(isFittable, isFittable.length);
 		double newSumSq, oldSumSq;
 		newSumSq = sumOfResidualSquares();
-		for(int i = isFittable.length-1; i >= 0; i--) {
+		for(int i = 0; i < isFittable.length; i++) {
 			if(isFittable[i]) { paramIdxs[idx++] = i; }
 		}
 		int iterations = 0;
