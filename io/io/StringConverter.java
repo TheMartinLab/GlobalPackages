@@ -16,6 +16,15 @@ public class StringConverter {
 		}
 		return s;
 	}
+	public synchronized static String arrayToNewLineString(Object[] arr) {
+		if(arr == null)
+			return null;
+		String s = arr[0].toString();
+		for(int i = 1; i < arr.length; i++) {
+			s += "\n" + arr[i].toString();
+		}
+		return s;
+	}
 	/**
 	 * 
 	 * @param arr
