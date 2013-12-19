@@ -16,7 +16,7 @@ public abstract class Regression {
 	protected double[][] convertedData;
 	protected Bounds[] convertedBounds;
 	protected RegressionModel model;
-	protected int minimumNumberOfDegreesOfFreedom = 10;
+	protected int minimumNumberOfDegreesOfFreedom = 1;
 	protected double delta = 1e-5;
 	// ERROR parameters
 	protected Matrix covariance, correlation;
