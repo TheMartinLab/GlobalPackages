@@ -20,7 +20,7 @@ public class ReadFile {
 	public final static int UNKNOWN_NUM_COLUMNS = -2;
 	private Scanner s;
 	private File f;
-	public ReadFile(File f, String delimiter) throws FileNotFoundException {
+	public ReadFile(File f, String delimiter) {
 		setDelimiter(delimiter);
 		setFile(f);
 	}

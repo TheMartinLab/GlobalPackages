@@ -21,6 +21,7 @@
 	<classpathentry kind="src" path="JavaToC"/>
 	<classpathentry kind="src" path="demos"/>
 	<classpathentry kind="src" path="io"/>
+	<classpathentry kind="src" path="Statistics"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
