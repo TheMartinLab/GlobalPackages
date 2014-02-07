@@ -62,6 +62,14 @@ public class JAtomTools {
 //		return bond1to2 && bond2to1;
 		return false;
 	}
+	public static int getZ(String Z) {
+		String z = Z.toLowerCase();
+		for(int i = 0; i < abbreviation.length; i++) {
+			if(z.compareTo(abbreviation[i].toLowerCase()) == 0)
+				return i+1;
+		}
+		return 0;
+	}
 	public static String getAbbreviation(int Z) {
 		assert abbreviation != null : "JAtomTools.getAbbreviation(int): abbreviation array is null.";
 		assert Z < abbreviation.length : "Z selection in JAtomTools.getAbbreviation(" + Z + ") is out of range.";
