@@ -295,7 +295,8 @@ public class ComplexScatteringFactor {
 		FileReader fr = null;
 		try {
 			if(home) {
-				fr = new FileReader("D:\\$research\\current\\eclipse projects\\MyPackages\\Crystallography\\scattering\\ElementListAndFormFactors.txt");
+//				fr = new FileReader("D:\\$research\\current\\eclipse projects\\MyPackages\\Crystallography\\scattering\\ElementListAndFormFactors.txt");
+				fr = new FileReader("ElementListAndFormFactors.txt");
 			} else if (laptop){
 				fr = new FileReader("C:\\$user\\$research\\programming\\workspace\\MyPackages\\Crystallography\\scattering\\ElementListAndFormFactors.txt");
 			} else {
@@ -362,7 +363,8 @@ public class ComplexScatteringFactor {
 		/* initialize the output stream */
 		try {
 			if(home) {
-				fos = new FileOutputStream("D:\\$research\\current\\eclipse projects\\MyPackages\\crystallography\\scattering\\JavaElementArrayObject");
+//				fos = new FileOutputStream("D:\\$research\\current\\eclipse projects\\MyPackages\\crystallography\\scattering\\JavaElementArrayObject");
+				fos = new FileOutputStream("JavaElementArrayObject");
 			} else if(laptop) {
 				fos = new FileOutputStream("C:\\$user\\$research\\programming\\workspace\\MyPackages\\crystallography\\scattering\\JavaElementArrayObject");
 			} else {
